@@ -14,28 +14,12 @@ A simple Flutter application to fetch and display weather information using the 
 
 ## Screenshots
   ### Responsive Phone:
-  <div style="display: flex; justify-content: space-between;">
-  
-#### Home Screen
-
-Content for Home Screen goes here.
-
-</div>
-
-<div style="display: flex; justify-content: space-between;">
-
-#### Weather Details Screen
-
-Content for Weather Details Screen goes here.
-
-</div>
-
-  ### HomeScreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Details Screen
+  ### HomeScreen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Details Screen:
   ![Home Screen](screenshots/phone_home_screen.png) &nbsp;&nbsp;&nbsp;
   ![Weather Details Screen](screenshots/phone_weather_details_screen.png)
 
   ### Responsive Tablet:
-  ### HomeScreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Weather Details Screen
+  ### HomeScreen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Weather Details Screen:
   ![Home Screen](screenshots/tablet_home_screen.png) &nbsp;&nbsp;&nbsp;
   ![Weather Details Screen](screenshots/tablet_weather_details_screen.png)
 
@@ -59,6 +43,9 @@ To run this project locally, follow these steps:
      - **provider**: State management library for managing application state.
      - **shared_preferences**: For storing the last searched city locally.
        
+       ```bash
+       flutter pub get
+       ```
  4. Change the api_key in weather_service by getting api_key in OpenweatherMap Api:
 
      ```bash
@@ -76,6 +63,11 @@ To run this project locally, follow these steps:
 2. The app will display a loading indicator while fetching the weather data.
 3. On the weather details screen, view the weather information for the entered city.
 4. Press the refresh button to fetch updated weather data.
-5. The app saves the last searched city and reloads it on startup.       
+5. The app saves the last searched city and reloads it on startup.
+
+## License
+
+This project is licensed under the MIT License - see the ![LICENSE](LICENSE) file for details.
+       
        
 
