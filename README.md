@@ -14,6 +14,8 @@ A simple Flutter application to fetch and display weather information using the 
 
 ## Screenshots
   ### Responsive Phone:
+  ### <div style="padding: 10px;">HomeScreen </div>    <div style="padding: 30px;">HomeScreen </div> 
+
   ### HomeScreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Details Screen
   ![Home Screen](screenshots/phone_home_screen.png) &nbsp;&nbsp;&nbsp;
   ![Weather Details Screen](screenshots/phone_weather_details_screen.png)
@@ -31,4 +33,5 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your_username/flutter_weather_app.git
-
+      ```
+2. 
