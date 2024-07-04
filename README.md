@@ -34,4 +34,14 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/your_username/flutter_weather_app.git
       ```
-2. 
+2. Navigate into the project directory:
+
+   ```bash
+   cd flutter_weather_app
+      ```
+ 3. Install dependencies:
+
+     - **http**: For making HTTP requests to the OpenWeatherMap API.
+     - **provider**: State management library for managing application state.
+     - **shared_preferences**: For storing the last searched city locally.
+
