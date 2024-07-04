@@ -55,12 +55,13 @@ To run this project locally, follow these steps:
        ```bash
        flutter run
        ```
+       
 ## Usage
 
-1.On the home screen, enter a city name in the search bar and press the search button.
-2.The app will display a loading indicator while fetching the weather data.
-3.On the weather details screen, view the weather information for the entered city.
-4.Press the refresh button to fetch updated weather data.
-5.The app saves the last searched city and reloads it on startup.       
+1. On the home screen, enter a city name in the search bar and press the search button.
+2. The app will display a loading indicator while fetching the weather data.
+3. On the weather details screen, view the weather information for the entered city.
+4. Press the refresh button to fetch updated weather data.
+5. The app saves the last searched city and reloads it on startup.       
        
 
