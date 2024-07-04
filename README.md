@@ -1,16 +1,28 @@
-# go_weather
+# GOWeather App
 
-A new Flutter project.
+A simple Flutter application to fetch and display weather information using the OpenWeatherMap API.
+
+## Features
+
+1. **Search Bar**: Allows users to enter a city name to fetch weather data.
+2. **Weather Details Screen**: Displays detailed weather information for the searched city.
+3. **Loading Indicator**: Shows a loading indicator while fetching weather data.
+4. **Error Handling**: Properly handles API request errors and displays user-friendly error messages.
+5. **Responsive Design**: Basic responsive design that works on both mobile and tablet devices.
+6. **Refresh Button**: Allows users to refresh and fetch updated weather data.
+7. **Data Persistence**: Stores the last searched city using local storage.
+
+## Screenshots
+  ### Responsive Phone:
+
+<img src="screenshots/phone_home_screen.png" />
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, follow these steps:
 
-A few resources to get you started if this is your first Flutter project:
+1. Clone the repository:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone https://github.com/your_username/flutter_weather_app.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
