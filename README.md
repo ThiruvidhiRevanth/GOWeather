@@ -13,7 +13,7 @@ A simple Flutter application to fetch and display weather information using the 
 7. **Data Persistence**: Stores the last searched city using local storage.
 
 ## Screenshots
-###Responsive Phone:
+  ### Responsive Phone:
 
 ![Home Screen](screenshots/home_screen.png)
 ![Weather Details Screen](screenshots/weather_details_screen.png)
