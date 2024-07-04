@@ -16,8 +16,8 @@ A simple Flutter application to fetch and display weather information using the 
   ### Responsive Phone:
   ### Home Screen
 
-<div style="padding: 50px;">
-</div>
+<p style="padding: 50px;">
+</p>
 
 ### Weather Details Screen   
 
