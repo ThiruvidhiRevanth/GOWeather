@@ -15,7 +15,7 @@ A simple Flutter application to fetch and display weather information using the 
 ## Screenshots
   ### Responsive Phone:
 
-![Home Screen]<img src="screenshots/home_screen.png" alt="Home Screen" width="300"/>
+<img src="screenshots/home_screen.png" alt="Home Screen" width="300" height="300"/>
 ![Weather Details Screen](screenshots/phone_weather_details_screen.png)
 
 ## Getting Started
