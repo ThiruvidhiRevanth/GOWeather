@@ -44,4 +44,16 @@ To run this project locally, follow these steps:
      - **http**: For making HTTP requests to the OpenWeatherMap API.
      - **provider**: State management library for managing application state.
      - **shared_preferences**: For storing the last searched city locally.
+       
+ 4. Change the api_key in by OpenweatherMap Api:
+
+     ```bash
+     API_KEY=your_actual_openweathermap_api_key
+     ```
+ 5. Run the app:
+
+       ```bash
+       flutter run
+       ```
+       
 
