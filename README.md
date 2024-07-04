@@ -14,7 +14,7 @@ A simple Flutter application to fetch and display weather information using the 
 
 ## Screenshots
   ### Responsive Phone:
-  ### <div style="padding: 10px;">HomeScreen </div>    <div style="padding: 30px;">HomeScreen </div> 
+  ### HomeScreen <div style="padding: 50px;">Weather Details Screen</div>    
 
   ### HomeScreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Details Screen
   ![Home Screen](screenshots/phone_home_screen.png) &nbsp;&nbsp;&nbsp;
