@@ -65,6 +65,9 @@ To run this project locally, follow these steps:
 4. Press the refresh button to fetch updated weather data.
 5. The app saves the last searched city and reloads it on startup.
 
+## Apk file
+
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
