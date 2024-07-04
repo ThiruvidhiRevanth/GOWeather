@@ -14,7 +14,7 @@ A simple Flutter application to fetch and display weather information using the 
 
 ## Screenshots
   ### Responsive Phone:
-  ### HomeScreen<div style="padding: 50px;">Weather Details Screen</div>    
+  ### HomeScreen <div style="padding: 50px;">Weather Details Screen</div>    
 
   ### HomeScreen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Weather Details Screen
   ![Home Screen](screenshots/phone_home_screen.png) &nbsp;&nbsp;&nbsp;
@@ -45,7 +45,7 @@ To run this project locally, follow these steps:
      - **provider**: State management library for managing application state.
      - **shared_preferences**: For storing the last searched city locally.
        
- 4. Change the api_key in by OpenweatherMap Api:
+ 4. Change the api_key in weather_service by getting api_key in OpenweatherMap Api:
 
      ```bash
      API_KEY=your_actual_openweathermap_api_key
@@ -55,5 +55,12 @@ To run this project locally, follow these steps:
        ```bash
        flutter run
        ```
+## Usage
+
+1.On the home screen, enter a city name in the search bar and press the search button.
+2.The app will display a loading indicator while fetching the weather data.
+3.On the weather details screen, view the weather information for the entered city.
+4.Press the refresh button to fetch updated weather data.
+5.The app saves the last searched city and reloads it on startup.       
        
 
