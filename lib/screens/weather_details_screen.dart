@@ -36,7 +36,10 @@ class WeatherDetailsScreen extends StatelessWidget {
   }
 
   Widget _buildMobileLayout(WeatherProvider weatherProvider) {
+    
     return Center(
+       child: SingleChildScrollView(
+      
       child: weatherProvider.isLoading
           ? CircularProgressIndicator()
           : weatherProvider.errorMessage != null
@@ -103,11 +106,12 @@ class WeatherDetailsScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-    );
+    ));
   }
 
   Widget _buildTabletLayout(WeatherProvider weatherProvider) {
     return Center(
+       child: SingleChildScrollView(
       child: weatherProvider.isLoading
           ? SizedBox(
               child: CircularProgressIndicator(),
@@ -182,7 +186,7 @@ class WeatherDetailsScreen extends StatelessWidget {
                         ),
                       ),
                     ),
-    );
+    ));
   }
 
   ImageProvider _getBackgroundImage(double temperature) {
