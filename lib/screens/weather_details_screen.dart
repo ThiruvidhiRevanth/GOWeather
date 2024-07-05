@@ -37,9 +37,8 @@ class WeatherDetailsScreen extends StatelessWidget {
 
   Widget _buildMobileLayout(WeatherProvider weatherProvider) {
     
-    return Center(
-       child: SingleChildScrollView(
-      
+    return 
+     Center(
       child: weatherProvider.isLoading
           ? CircularProgressIndicator()
           : weatherProvider.errorMessage != null
@@ -49,12 +48,12 @@ class WeatherDetailsScreen extends StatelessWidget {
                 )
               : weatherProvider.weather == null
                   ? Text('Enter a city to get weather details.')
-                  : Card(
+                  :  Card(
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(16.0),
                       ),
                       elevation: 5,
-                      margin: EdgeInsets.all(16),
+                      margin: EdgeInsets.fromLTRB(80, 200, 80, 150),
                       child: Stack(
                         children: [
                           Container(
@@ -106,12 +105,13 @@ class WeatherDetailsScreen extends StatelessWidget {
                         ],
                       ),
                     ),
-    ));
+    );
   }
 
   Widget _buildTabletLayout(WeatherProvider weatherProvider) {
-    return Center(
-       child: SingleChildScrollView(
+
+    return SingleChildScrollView(
+    child:Center(
       child: weatherProvider.isLoading
           ? SizedBox(
               child: CircularProgressIndicator(),
